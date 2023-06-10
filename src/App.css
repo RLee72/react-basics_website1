@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.fontstyle {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: 'bold';
+  font-style: 'italic';
+}
+
+.h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  letter-spacing: 1px;
+  }
+
+.bodyfont {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+  line-height: .2vh;
+}
+
+.headerfont {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 5vh;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.nav {
+  /*display: flex;*/
+  justify-content: space-between;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 50px;
+  border: "20px solid orange";
+  background-color: #ececec;
+  color:"red";
+  
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #000; /* specify your desired color */
+  margin-right: 20px;
+}
+
+.nav-item:hover {
+  color: #f00; /* color on hover */
+}
+
+.nav-item:active {
+  color: #00f; /* color when clicked */
+}
+
+input,
+button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 10px;
+}
+
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: rgb(52, 70, 86);
+  color: white;
+}
+
+.App-header {
+  padding-top: 10px;
+  background-color: #282c34;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  /*justify-content: center; */
+  /*font-size: calc(10px + 2vmin);*/
+  color: white;
+}
+
+.paragraph {
+  margin-bottom: 2em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
